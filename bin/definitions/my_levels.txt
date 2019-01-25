@@ -1,0 +1,56 @@
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: smiley
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:color(yellow)
+paddle_speed:400
+paddle_width:100
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:9
+START_BLOCKS
+-
+-----b---b-----
+---------------
+---------------
+----r-----r----
+-----rrrrr-----
+
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+START_LEVEL
+level_name: mess
+ball_velocities:45,550 46,550 47,550
+background:color(RGB(142,0,0))
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/arrows_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:11
+START_BLOCKS
+-
+-
+---b-----------
+----------y----
+r-----o--------
+-----y----b----
+-o----------y--
+y-----r-----o--
+---------------
+---------------
+---------------
+
+END_BLOCKS
+END_LEVEL
